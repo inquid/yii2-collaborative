@@ -11,8 +11,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "inquid/yii2-collaborative": "dev-master"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
