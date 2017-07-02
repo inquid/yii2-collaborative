@@ -54,27 +54,27 @@ class GitHubRibbon extends \yii\base\Widget
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png';
         }
         /* LEFT */
-        if ($this->color == 'red') {
+        if ($this->color == 'red' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png';
         }
-        if ($this->color == 'green') {
+        if ($this->color == 'green' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png';
         }
-        if ($this->color == 'black') {
+        if ($this->color == 'black' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png';
         }
-        if ($this->color == 'orange') {
+        if ($this->color == 'orange' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png';
         }
-        if ($this->color == 'gray') {
+        if ($this->color == 'gray' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/c6625ac1f3ee0a12250227cf83ce904423abf351/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677261795f3664366436642e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png';
         }
-        if ($this->color == 'white') {
+        if ($this->color == 'white' and $this->side == 'left') {
             $this->src = 'https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67';
             $this->data_canonical_src = 'https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png';
         }
