@@ -35,6 +35,7 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
+For add the github button at the corner use:
 ```php
 <?= \inquid\collaborative\GitHubRabito::widget(); ?>
 ```
